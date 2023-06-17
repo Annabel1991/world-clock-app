@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <title>World Clock App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>World Time</h1>
+        <select id="city">
+            <option value="">Select a City</option>
+            <option value="current">Use My Current Location</option>
+            <option value="Europe/Viena">Viena</option>
+            <option value="America/New_York">New York</option>
+            <option value="Pacific/Seattle">Seattle</option>
+            <option value="America/Lima">Lima</option>
+            <option value="Africa/Cairo">Cairo</option>
+        </select>
+
+        <div id="cities">
+            <div class="city" id="new-york">
+                <div>
+                    <h2>New York</h2>
+
+                    <div class="date">
+                        June 16th 2023
+                    </div>
+                </div>
+        
+                <div class="time">
+                01:39:08 <small>AM</small>
+                </div>
+            </div>
+
+            <div class="city" id="kyiv">
+                <div>
+                    <h2>Kyiv</h2>
+            
+                    <div class="date">
+                        June 17th 2023
+                    </div>
+                </div>
+            
+                <div class="time">
+                    08:38:08 <small>AM</small>
+                </div>
+            </div>
+
+            <div class="city" id="tokyo">
+                <div>
+                    <h2>Tokyo</h2>
+            
+                    <div class="date">
+                        June 17th 2023
+                    </div>
+                </div>
+            
+                <div class="time">
+                    1:55:08 <small>PM</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
